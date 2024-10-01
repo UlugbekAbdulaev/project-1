@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 90%;
+    max-width: 1420px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+}
+
+:root {
+    --asosiy: #DC780B;
+}
+
+.nav_itmes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav_itmes li:hover {
+    color: var(--asosiy);
+}
+
+.nav_btn button {
+    width: 180px;
+    height: 40px;
+    background-color: var(--asosiy);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.making {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 600px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left h2 {
+    font-family: "Philosopher" , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.making_button {
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+
+}
+
+.left_btn button {
+    background-color: var(--asosiy);
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.right_btn button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: var(--asosiy);
+}
+
+.Features {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: "Philosopher" , sans-serif;
+}
+
+.Features span {
+    color: var(--asosiy);
+}
+
+.food_img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.start {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.senter {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.end {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+.about {
+    width: 100%;
+    height: 500px;
+    padding-top: 50px;
+    display: flex;
+
+}
+
+.about_left {
+    width: 50%;
+    height: 400px;
+
+}
+
+.about_right {
+    width: 50%;
+    height: 400px;
+   padding: 100px 200px 100px 0;
+   line-height: 30px;
+}
+.about_right button{
+    background-color: var(--asosiy);
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.about_right p{
+    color: gray;
+}
+.about_right span{
+    color: var(--asosiy);
+}
+.about_right h2{
+    font-family: "Philosopher" , sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+}
+.menu{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 130px;
+}
+.food_menu{
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.top{
+    width: 360px;
+    height: 420px;
+    border: 1px solid rgb(163, 161, 161);
+    border-top: none;
+    border-radius: 80px 20px 0 0 ;
+}
+.ball{
+    width: 30px;
+    height: 30px;
+    background-color: var(--asosiy);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom{
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menu .p{
+    color: var(--asosiy);
+    font-weight: 20px;
+}
